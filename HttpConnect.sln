@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpConnect", "src\HttpConnect\HttpConnect.csproj", "{4F93A3FE-9556-4951-B0BB-8CE9B17BCF44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpConnect.Tests", "test\HttpConnect.Tests\HttpConnect.Tests.csproj", "{422FEE6C-8B17-4D26-81AD-CE43C3AF5EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F93A3FE-9556-4951-B0BB-8CE9B17BCF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F93A3FE-9556-4951-B0BB-8CE9B17BCF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F93A3FE-9556-4951-B0BB-8CE9B17BCF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F93A3FE-9556-4951-B0BB-8CE9B17BCF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422FEE6C-8B17-4D26-81AD-CE43C3AF5EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422FEE6C-8B17-4D26-81AD-CE43C3AF5EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422FEE6C-8B17-4D26-81AD-CE43C3AF5EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422FEE6C-8B17-4D26-81AD-CE43C3AF5EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD21AE56-0F9B-47E5-9310-87F0BFF1FEA1}
+	EndGlobalSection
+EndGlobal
